@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function TeamSection() {
   return (
-    <section className="team-section-container relative flex flex-col xl:flex-row-reverse xl:justify-between items-end w-full h-[590px] sm:h-[804px] xl:h-[643px] px-9 lg:px-32 mt-[80px] sm:mt-[100px] xl:mt-[160px] pt-12 xl:pb-[120px] xl:pt-[151px] ">
+    <section className="team-section-container relative flex flex-col xl:flex-row-reverse xl:justify-between items-end w-full h-[590px]  xl:h-[643px] px-9 lg:px-32 mt-[80px] sm:mt-[100px] xl:mt-[160px] pt-12 xl:pb-[120px] xl:pt-[151px] ">
       <Image
         src="/tlight.svg"
         alt="green top"
@@ -16,7 +16,7 @@ function TeamSection() {
         className="absolute bottom-0 right-0 z-0 "
       />
       <div className="first-container relative z-20  xl:w-[35%] flex xl:flex-col items-end ">
-        <div className="first-left-container h-full w-12 xl:w-20 flex xl:hidden flex-col justify-between items-start  ">
+        <div className="flex flex-col items-start justify-between w-12 h-full first-left-container xl:w-20 xl:hidden ">
           <div className="line-container relative w-[68px] xl:w-[138px] rotate-90 origin-left -translate-x-2 -translate-y-5">
             <hr className="w-[full] border-primary border-t-[1px]" />
             <Image
@@ -31,8 +31,8 @@ function TeamSection() {
             Landing pages & online shops optimized for higher conversion rate
           </p>
         </div>
-        <div className="first-right-container  ">
-          <div className="big-text text-gold flex justify-end items-center">
+        <div className="first-right-container ">
+          <div className="flex items-center justify-end big-text text-gold">
             <p>
               <span className="font-montserrat text-[18px] xl:text-[37px] font-light underline ">
                 our
@@ -60,7 +60,7 @@ function TeamSection() {
         </div>
       </div>
       <div className="second-container xl:max-w-[700px] flex relative z-20 mt-10 xl:mt-0">
-        <div className="left-container w-16 hidden xl:flex flex-col justify-between items-start  ">
+        <div className="flex-col items-start justify-between hidden w-16 left-container xl:flex ">
           <div className="line-container relative w-[40%] xl:w-[138px] rotate-90 origin-left xl:mt-10">
             <hr className="w-[full] border-primary border-t-[1px]" />
             <Image
@@ -76,14 +76,14 @@ function TeamSection() {
           </div>
         </div>
         <div className="right-container flex flex-wrap justify-center items-end xl:w-[750px] gap-10 2xl:gap-20 ">
-          <div className="person-container flex flex-col items-center gap-2">
-            <div className="frame w-[74px] h-[74px] rounded-full flex justify-center bg-black bg-opacity-60 backdrop-filter backdrop-blur-10 ">
+          <div className="flex flex-col items-center gap-2 person-container">
+            <div className="frame w-[74px] h-[74px] hover:scale-110 rounded-full flex justify-center bg-black bg-opacity-60 backdrop-filter backdrop-blur-10 ">
               <Image
                 src="/5.svg"
                 alt="rectangle"
                 width={50}
                 height={50}
-                className=" "
+                className=""
               />
             </div>
             <p className="font-montserrat font-semibold text-xs sm:text-lg xl:text-[26px] text-[#EFF6F4] ">
@@ -93,14 +93,14 @@ function TeamSection() {
               Marketer
             </p>
           </div>
-          <div className="person-container flex flex-col items-center gap-2">
-            <div className="frame w-[74px] h-[74px] rounded-full flex justify-center bg-black bg-opacity-60 backdrop-filter backdrop-blur-10 ">
+          <div className="flex flex-col items-center gap-2 person-container">
+            <div className="frame w-[74px] h-[74px] hover:scale-110 rounded-full flex justify-center bg-black bg-opacity-60 backdrop-filter backdrop-blur-10 ">
               <Image
                 src="/5.svg"
                 alt="rectangle"
                 width={50}
                 height={50}
-                className=" "
+                className=""
               />
             </div>
             <p className="font-montserrat font-semibold text-xs sm:text-lg xl:text-[26px] text-[#EFF6F4] ">
@@ -110,8 +110,8 @@ function TeamSection() {
               Marketer
             </p>
           </div>
-          <div className="manager-container flex flex-col items-center gap-2">
-            <div className="frame w-[74px] h-[74px] xl:w-[140px] xl:h-[140px] rounded-full flex justify-center bg-black bg-opacity-60 backdrop-filter backdrop-blur-10 ">
+          <div className="flex flex-col items-center gap-2 manager-container">
+            <div className="frame w-[74px] h-[74px] hover:scale-110 rounded-full flex justify-center bg-black bg-opacity-60 backdrop-filter backdrop-blur-10 ">
               <Image
                 src="/5.svg"
                 alt="rectangle"
@@ -127,14 +127,14 @@ function TeamSection() {
               Preject Manager
             </p>
           </div>
-          <div className="person-container flex flex-col items-center gap-2">
-            <div className="frame w-[74px] h-[74px] rounded-full flex justify-center bg-black bg-opacity-60 backdrop-filter backdrop-blur-10 ">
+          <div className="flex flex-col items-center gap-2 person-container">
+            <div className="frame w-[74px] h-[74px] hover:scale-110 rounded-full flex justify-center bg-black bg-opacity-60 backdrop-filter backdrop-blur-10 ">
               <Image
                 src="/5.svg"
                 alt="rectangle"
                 width={50}
                 height={50}
-                className=" "
+                className=""
               />
             </div>
             <p className="font-montserrat font-semibold text-xs sm:text-lg xl:text-[26px] text-[#EFF6F4] ">
@@ -144,14 +144,14 @@ function TeamSection() {
               Marketer
             </p>
           </div>
-          <div className="person-container flex flex-col items-center gap-2">
-            <div className="frame w-[74px] h-[74px] rounded-full flex justify-center bg-black bg-opacity-60 backdrop-filter backdrop-blur-10 ">
+          <div className="flex flex-col items-center gap-2 person-container">
+            <div className="frame w-[74px] h-[74px] hover:scale-110 rounded-full flex justify-center bg-black bg-opacity-60 backdrop-filter backdrop-blur-10 ">
               <Image
                 src="/5.svg"
                 alt="rectangle"
                 width={50}
                 height={50}
-                className=" "
+                className=""
               />
             </div>
             <p className="font-montserrat font-semibold text-xs sm:text-lg xl:text-[26px] text-[#EFF6F4] ">
@@ -163,7 +163,7 @@ function TeamSection() {
           </div>
         </div>
       </div>
-      <div className="w-full absolute left-0 top-9 overflow-hidden z-0">
+      <div className="absolute left-0 z-0 w-full overflow-hidden top-9">
         <div className="waves h-[550px] w-[3200px] relative z-0">
           <Image
             src="/wawes.webp"

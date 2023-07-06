@@ -5,9 +5,9 @@ function ThirdSection() {
     <section>
       <div className="w-full px-9 lg:px-[133px] h-[244px] sm:h-[300px] xl:h-[500px] mt-28 mb-10">
         <div className="title-container w-full font-donpoligrafbum h-[68px] sm:h-[92px] xl:h-[169px] text-sm sm:text-xl lg:text-2xl xl:text-[50px] font-bold flex flex-col justify-between">
-          <h2 className="  w-full flex justify-end gap-3 xl:gap-7">
+          <h2 className="flex justify-end w-full gap-3  xl:gap-7">
             <span className="text-gold gold-underline">WE BELIEVE </span>{" "}
-            <span className="no-underline text-black">IN OUR</span>
+            <span className="text-black no-underline">IN OUR</span>
           </h2>
           <div className="second-row relative w-full flex justify-end items-center gap-20 sm:gap-48 2xl:gap-[550px] ">
             <Image
@@ -19,7 +19,7 @@ function ThirdSection() {
             />
             <h2 className=" text-gold gold-underline">EXPERIENCE </h2>
           </div>
-          <h2 className="w-full flex justify-end gap-3">
+          <h2 className="flex justify-end w-full gap-3">
             {" "}
             <span>AND THE</span>{" "}
             <span className="text-gold gold-underline">STRENGTH</span>{" "}

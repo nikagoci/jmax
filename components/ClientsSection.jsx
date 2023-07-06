@@ -4,9 +4,9 @@ import Image from "next/image";
 function ClientsSection() {
   return (
     <section className="clients-container w-full relative h-[333px] sm:h-[470px] xl:h-[620px] overflow-hidden">
-      <div className="text-container relative z-50 w-full h-24 flex flex-col sm:flex-row justify-between sm:justify-center sm:gap-5 sm:items-center xl:justify-between xl:px-32 mt-[62px] xl:mt-[92px] ">
-        <p className="text-gold flex w-[265px] sm:w-[320px] xl:w-[750px] justify-between items-center ml-6 sm:ml-0">
-          <span className="font-montserrat  gold-underline font-extralight text-lg xl:text-[46px] ">
+      <div className="text-container relative z-50 w-full h-24 flex flex-col sm:flex-row justify-between sm:gap-x-16 sm:justify-center sm:gap-5 sm:items-center xl:justify-between 2xl:px-24 xl:px-20 mt-[62px] xl:mt-[92px] ">
+        <p className="text-gold  flex w-[265px] sm:w-[320px] xl:w-[750px] justify-between items-center ml-6 sm:ml-0">
+          <span className=" font-montserrat  gold-underline font-extralight  xl:text-[46px] mb-8 ">
             our
           </span>{" "}
           <span className="font-donpoligrafbum text-xl sm:text-[26px] font-bold xl:text-[66px] ">
@@ -23,9 +23,9 @@ function ClientsSection() {
         <Image
           src="/Group 25.svg"
           alt="line"
-          width={255}
+          width={355}
           height={8}
-          className="hidden xl:block"
+          className="hidden xl:block 2xl:w-[350px] xl:w-[150px]"
         />
         <p className="text-[#EFF6F4] font-montserrat w-[230px] xl:w-[260px] text-sm xl:text-base text-center sm:text-end font-light xl:font-normal translate-x-14 sm:translate-x-0">
           Landing pages & online shops optimized for higher conversion rate &
@@ -134,7 +134,7 @@ function ClientsSection() {
         fill
         className="absolute bottom-0 left-0 z-0 w-1/12"
       />
-      <div className="w-full absolute left-0 -top-12 overflow-hidden z-10">
+      <div className="absolute left-0 z-10 w-full overflow-hidden -top-12">
         <div className="waves h-[550px] w-[3200px] relative z-10">
           <Image
             src="/wawes.webp"

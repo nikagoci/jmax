@@ -6,9 +6,9 @@ function DropDown({number}) {
   return (
     <div
       onClick={() => setIsOpen(!isOpen)}
-      className={`bg-[#F4F8F3] ${
+      className={`bg-[#F4F8F3] pb-10  ${
         isOpen ? "h-fit rounded-br-[40px] " : "h-[120px] rounded-tl-[40px] "
-      } transition-all duration-500 ease-in-out xl:px-[140px] px-8 py-8`}
+      } transition-all duration-500 ease-in-out xl:px-[140px] px-8 py-2`}
     >
       <div className="title flex justify-between items-center xl:h-[120px] w-full  ">
         <p>

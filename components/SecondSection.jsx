@@ -13,13 +13,13 @@ const SecondSection = () => {
     hidden: { opacity: 0, scale: 0 },
   };
   return (
-    <div className="font-montserrat w-full">
-      <section className="px-9 lg:px-32 pt-16 xl:pt-40 xl:flex xl:justify-between">
-        <div className="left-container w-full xl:w-4/12">
+    <div className="w-full font-montserrat">
+      <section className="pt-16 px-9 lg:px-32 xl:pt-40 xl:flex xl:justify-between">
+        <div className="w-full left-container xl:w-4/12">
           <p className="flex gap-3 lg:gap-4">
             {" "}
             <motion.span
-              className="underline text-lg lg:text-4xl font-light"
+              className="text-lg font-light underline lg:text-4xl"
               initial={{ x: "-100px" }}
               whileInView={{ x: "0px" }}
               transition={{ duration: 2 }}
@@ -28,7 +28,7 @@ const SecondSection = () => {
               Нашето
             </motion.span>{" "}
             <motion.span
-              className="text-gold font-donpoligrafbum text-xl lg:text-4xl"
+              className="text-xl text-gold font-donpoligrafbum lg:text-4xl"
               initial={{ y: "-100px", opacity: 0 }}
               whileInView={{ y: "0px", opacity: 1 }}
               transition={{ duration: 1 }}
@@ -44,12 +44,12 @@ const SecondSection = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 2 }}
-            className="text-gold gold-underline font-donpoligrafbum text-xl w-40 lg:text-4xl translate-x-40 lg:translate-x-48 -translate-y-5 lg:-translate-y-10"
+            className="w-40 text-xl translate-x-24 -translate-y-5 text-gold gold-underline font-donpoligrafbum lg:text-4xl lg:translate-x-48 lg:-translate-y-10"
           >
             ФОЛИО
           </motion.p>
         </div>
-        <div className="right-container  w-full xl:w-7/12 xl:pl-9 flex">
+        <div className="flex w-full right-container xl:w-7/12 xl:pl-9">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -67,7 +67,7 @@ const SecondSection = () => {
             initial={{ x: "100px", opacity: 0 }}
             whileInView={{ x: "0px", opacity: 1 }}
             transition={{ duration: 1 }}
-            className=" underline font-semibold text-xs sm:text-sm lg:text-lg w-full xl:max-w-4xl "
+            className="w-full text-xs font-semibold underline sm:text-sm lg:text-lg xl:max-w-4xl"
           >
             Тук нашите конкуренти слагат фейк ревюта от несъществуващи свои
             клиенти.{" "}
