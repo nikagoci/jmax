@@ -63,14 +63,12 @@ const BottomSwiper = () => {
             title="WIREFRAME"
             numeration="02"
           >
-            <p className="mt-6 text-lg font-semibold leading-7 w-96">
               It is a long established{" "}
               <span className="font-bold underline">
                 fact that a reader will be distracted
               </span>{" "}
               by the readable content of a page when looking at its layout.
               <span className="underline">The point of using Lorem Ipsum</span>
-            </p>
           </ExperienceSlide>
         </SwiperSlide>
         <SwiperSlide className="!w-[400px] !h-96 px-6 !bg-white">
@@ -79,14 +77,12 @@ const BottomSwiper = () => {
             title="COPYWRITING"
             numeration="03"
           >
-            <p className="mt-6 text-lg font-semibold leading-7 w-96">
               It is a long established{" "}
               <span className="font-bold underline">
                 fact that a reader will be distracted
               </span>{" "}
               by the readable content of a page when looking at its layout.
               <span className="underline">The point of using Lorem Ipsum</span>
-            </p>
           </ExperienceSlide>
         </SwiperSlide>
         <SwiperSlide className="!w-[400px] !h-96 px-6 !bg-white">
@@ -95,26 +91,22 @@ const BottomSwiper = () => {
             title="FIGMA DESIGN"
             numeration="04"
           >
-            <p className="mt-6 text-lg font-semibold leading-7 w-96">
               It is a long established{" "}
               <span className="font-bold underline">
                 fact that a reader will be distracted
               </span>{" "}
               by the readable content of a page when looking at its layout.
               <span className="underline">The point of using Lorem Ipsum</span>
-            </p>
           </ExperienceSlide>
         </SwiperSlide>
         <SwiperSlide className="!w-[400px] !h-96 px-6 !bg-white">
           <ExperienceSlide image="/Group 87.svg" title="Video" numeration="05">
-            <p className="mt-6 text-lg font-semibold leading-7 w-96">
               It is a long established{" "}
               <span className="font-bold underline">
                 fact that a reader will be distracted
               </span>{" "}
               by the readable content of a page when looking at its layout.
               <span className="underline">The point of using Lorem Ipsum</span>
-            </p>
           </ExperienceSlide>
         </SwiperSlide>
         <SwiperSlide className="!w-[400px] !h-96 px-6 !bg-white">
@@ -123,14 +115,12 @@ const BottomSwiper = () => {
             title="DEVELOPMENT"
             numeration="06"
           >
-            <p className="mt-6 text-lg font-semibold leading-7 w-96">
               It is a long established{" "}
               <span className="font-bold underline">
                 fact that a reader will be distracted
               </span>{" "}
               by the readable content of a page when looking at its layout.
               <span className="underline">The point of using Lorem Ipsum</span>
-            </p>
           </ExperienceSlide>
         </SwiperSlide>
         {/* <SwiperSlide className="!w-[400px] !h-96 px-6 !bg-white">

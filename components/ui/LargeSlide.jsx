@@ -34,7 +34,7 @@ function LargeSlide({ image, light, title, description, flag }) {
               <h4 className="font-montserrat text-[20px] font-bold">{title}</h4>
             </div>
             <p className="font-montserrat text-[10px] max-w-[70%]">
-              "{description}
+              &quot;{description}
             </p>
           </div>
 

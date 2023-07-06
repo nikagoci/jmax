@@ -12,7 +12,7 @@ function SmallSlide({ image, light, title, description, flag }) {
       />
 
       <div
-        className={` ${
+        className={`${
           light ? "text-[#292929]" : "text-[#EFF6F4]"
         } absolute top-10 left-3 `}
       >
@@ -31,11 +31,11 @@ function SmallSlide({ image, light, title, description, flag }) {
         <div className="flex items-center justify-between w-full">
           <div className="flex flex-col gap-y-4">
             <div className="flex items-center gap-x-4">
-              <Image src={flag} alt='flag' width={28} height={20} />
+              <Image src={flag} alt="flag" width={28} height={20} />
               <h4 className="font-montserrat text-[12px] font-bold">{title}</h4>
             </div>
             <p className="font-montserrat text-[10px] max-w-[70%]">
-              "{description}
+            &quot;{description}
             </p>
           </div>
         </div>
