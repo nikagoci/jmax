@@ -1,6 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Navbar from '../components/layout/Navbar'
+import Footer from '../components/layout/Footer'
 import { montserrat, donpoligrafbum } from "./fonts";
 
 
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   )
