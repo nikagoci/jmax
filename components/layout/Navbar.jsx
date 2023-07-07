@@ -15,7 +15,7 @@ const Navbar = () => {
     
 
     <div className="w-full ">
-      <nav className="h-28 md:h-[123px] w-full flex justify-between bg-transparent z-50  fixed overflow-hidden px-9 lg:px-24">
+      <nav className="h-28 md:h-[123px] w-full flex justify-between bg-transparent z-50  absolute overflow-hidden px-9 lg:px-24">
         <div className="left-container flex items-center relative w-[43%] lg:w-[40%] h-[80px] lg:h-[120px] border-b-[1px] border-b-primary">
           <Image
             src="/Rectangle 15.svg"
@@ -51,7 +51,7 @@ const Navbar = () => {
           </div>
           <div className="flex items-center justify-center w-full h-full lg:hidden">
 
-          <p className="block text-sm font-bold text-white font-montserrat lg:ml-9 text-md lg:font-semibold sm:text-lg lg:hidden">
+          <p className="block text-[12px] font-bold text-white font-montserrat lg:ml-9 lg:font-semibold sm:text-lg lg:hidden">
             {" "}
             +1 234 56 78 90
           </p>

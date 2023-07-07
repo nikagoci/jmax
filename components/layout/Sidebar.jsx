@@ -14,7 +14,7 @@ const navigation = [
 
 function Sidebar({setOpenSidebar}) {
   return (
-    <div className="absolute z-[100] sm:w-[90%] lg:w-[40%] flex flex-col w-full h-screen md:w-[60%] ">
+    <div  className=" absolute z-[100] sm:w-[90%] lg:w-[40%] flex flex-col w-full h-screen md:w-[60%] ">
       <div className="bg-gradient-to-l backdrop-blur-lg from-[rgba(29,33,28,1)] to-[rgba(16,17,16,1)] absolute w-full h-full -z-10" />
       <div className="absolute w-8 h-auto text-white right-10 top-14 lg:left-16 ">
         <Image src="/close-icon.png" alt="close" className="cursor-pointer" width={20} height={20} onClick={() => setOpenSidebar(false)} />
