@@ -190,8 +190,23 @@ const MySwiper = () => {
   console.log(activeIndex);
   return (
     <>
+    <div className="relative flex sm:hidden mt-4 w-[50%] mx-auto line">
+          <Image src="/Group 159.svg" alt="scroll" width={280} height={6} />
+          <div className="absolute transform -translate-y-1/2 top-1/2 ">
+            <Image
+              src="/Group 160.svg"
+              alt="circle"
+              width={14}
+              height={14}
+              className="transition-all duration-500 ease-in-out"
+              style={{
+                transform: `translateX(${scrollValue + 220 / slideCount}px)`,
+              }}
+            />
+          </div>
+        </div>
       <div className="flex items-center justify-between w-full xl:justify-end md:px-8 lg:px-24 scrool h-36 pr-9 lg:pr-32">
-        <div className="relative flex xl:hidden">
+        <div className="relative hidden sm:flex">
           <Image
             src="/finger.svg"
             alt="scroll"
@@ -207,7 +222,7 @@ const MySwiper = () => {
             className="absolute -top-1 left-9 rotate-12"
           />
         </div>
-        <div className="relative line">
+        <div className="relative justify-center hidden w-full sm:flex line">
           <Image src="/Group 159.svg" alt="scroll" width={280} height={6} />
           <div className="absolute transform -translate-y-1/2 top-1/2 ">
             <Image
@@ -222,16 +237,17 @@ const MySwiper = () => {
             />
           </div>
         </div>
+        <div className="flex sm:hidden"></div>
 
         <div className="flex ml-5 gap-x-8 swiper-count">
-          <Image src="/arrow.svg" alt="scroll" width={10} height={2} />
+          <Image src="/arrow.svg" alt="scroll" width={15} height={2} />
           <p className="text-2xl font-medium">
             <span className="text-primary"> {activeIndex + 1}</span>/
             {slideCount}
           </p>
-          <Image src="/arrowr.svg" alt="arrow" width={10} height={2} />
+          <Image src="/arrowr.svg" alt="arrow" width={15} height={2} />
         </div>
-        <div className="relative hidden xl:flex ">
+        <div className="relative flex sm:hidden ">
           <Image
             src="/finger.svg"
             alt="scroll"

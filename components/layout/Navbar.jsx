@@ -1,10 +1,20 @@
-import React, { Fragment } from "react";
+"use client"
+
+import React, { Fragment, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+import Sidebar from './Sidebar'
+
 const Navbar = () => {
+  const [openSidebar, setOpenSidebar] = useState(false)
+
   return (
-    <div className="w-full">
+    <>
+    {openSidebar && <Sidebar setOpenSidebar={setOpenSidebar} />}
+    
+
+    <div className="w-full ">
       <nav className="h-28 md:h-[123px] w-full flex justify-between bg-transparent z-50  fixed overflow-hidden px-9 lg:px-24">
         <div className="left-container flex items-center relative w-[43%] lg:w-[40%] h-[80px] lg:h-[120px] border-b-[1px] border-b-primary">
           <Image
@@ -14,13 +24,14 @@ const Navbar = () => {
             height={7}
             className="absolute -bottom-1 right-[23px] lg:right-28"
           />
-          <div className="menu-container w-20 lg:border-r-[1px] border-r-primary ">
+          <div className="menu-container  w-20 lg:border-r-[1px] border-r-primary ">
             <Image
               src="/menu.svg"
               alt="menu"
               width={38}
               height={26}
-              className=""
+              className="cursor-pointer"
+              onClick={() => setOpenSidebar(true)}
             />
           </div>
           <p className="hidden ml-10 text-lg font-semibold text-white font-montserrat lg:block">
@@ -40,7 +51,7 @@ const Navbar = () => {
           </div>
           <div className="flex items-center justify-center w-full h-full lg:hidden">
 
-          <p className="block font-bold text-white font-montserrat lg:ml-9 text-md lg:font-semibold sm:text-lg lg:hidden">
+          <p className="block text-sm font-bold text-white font-montserrat lg:ml-9 text-md lg:font-semibold sm:text-lg lg:hidden">
             {" "}
             +1 234 56 78 90
           </p>
@@ -79,10 +90,11 @@ const Navbar = () => {
           alt="greenlight"
           width={1098}
           height={593}
-          className="absolute top-0 right-0 z-0 green-light"
+          className="absolute top-0 right-0 -z-10 green-light"
         />
       </nav>
     </div>
+    </>
   );
 };
 

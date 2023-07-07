@@ -37,5 +37,6 @@ module.exports = {
       };
       addUtilities(extendUnderline);
     },
+    require('@tailwindcss/forms'),
   ],
 };

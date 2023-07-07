@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function TeamSection() {
   return (
-    <section className="team-section-container relative flex flex-col xl:flex-row-reverse xl:justify-between items-end w-full h-[590px]  xl:h-[643px] px-9 lg:px-32 mt-[80px] sm:mt-[100px] xl:mt-[160px] pt-12 xl:pb-[120px] xl:pt-[151px] ">
+    <section className="team-section-container relative flex flex-col xl:flex-row-reverse xl:justify-between items-end w-fullpx-9 lg:px-32 mt-[80px] pb-16 sm:mt-[100px] xl:mt-[160px] pt-12 xl:pb-[120px] xl:pt-[151px] ">
       <Image
         src="/tlight.svg"
         alt="green top"
@@ -115,15 +115,15 @@ function TeamSection() {
               <Image
                 src="/5.svg"
                 alt="rectangle"
-                width={90}
-                height={92}
-                className="w-[50px] xl:w-[90px] "
+                width={50}
+                height={50}
+                className=""
               />
             </div>
-            <p className="font-montserrat font-semibold text-xs sm:text-lg xl:text-[28px] text-[#EFF6F4] ">
+            <p className="font-montserrat font-semibold text-xs sm:text-lg xl:text-[26px] text-[#EFF6F4] ">
               Mike Green
             </p>
-            <p className="font-montserrat font-semibold text-secondary text-[10px] sm:text-lg">
+            <p className="font-montserrat font-semibold text-secondary text-[10px] sm:text-base">
               Preject Manager
             </p>
           </div>
@@ -170,7 +170,7 @@ function TeamSection() {
             alt="wave"
             width={5690}
             height={550}
-            className="absolute w-[5690px] max-h-[550px] z-0"
+            className="absolute w-[5690px] max-h-[550px] -z-10"
           />
         </div>
       </div>{" "}

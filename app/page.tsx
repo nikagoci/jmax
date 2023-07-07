@@ -6,6 +6,7 @@ import PlanSection from "../components/PlanSection";
 import GuaranteeSection from "../components/GuaranteeSection";
 import FaqSection from "../components/FaqSection";
 import TeamSection from "../components/TeamSection";
+import OrderSection from "../components/OrderSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <GuaranteeSection />
       <FaqSection />
       <TeamSection />
+      <OrderSection />
     </main>
   );
 }

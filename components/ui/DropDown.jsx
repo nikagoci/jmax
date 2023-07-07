@@ -8,7 +8,7 @@ function DropDown({number}) {
       onClick={() => setIsOpen(!isOpen)}
       className={`bg-[#F4F8F3] pb-10  ${
         isOpen ? "h-fit rounded-br-[40px] " : "h-[120px] rounded-tl-[40px] "
-      } transition-all duration-500 ease-in-out xl:px-[140px] px-8 py-2`}
+      } transition-all duration-500 ease-in-out xl:px-[140px] px-8 py-10`}
     >
       <div className="title flex justify-between items-center xl:h-[120px] w-full  ">
         <p>
@@ -16,7 +16,7 @@ function DropDown({number}) {
             {number}.
           </span>{" "}
           {""}
-          <span className="font-semibold text-[10px] sm:text-lg xl:text-2xl pl-3">
+          <span className="font-semibold text-[14px]  sm:text-lg xl:text-2xl pl-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </span>
         </p>
